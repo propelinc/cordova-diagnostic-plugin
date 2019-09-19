@@ -79,6 +79,8 @@
 
         <framework src="CoreBluetooth.framework" />
 
+        <!-- Removed to prevent asking for bluetooth permission. -->
+        <!--
         <config-file target="*-Info.plist" parent="NSBluetoothPeripheralUsageDescription">
             <string>This app requires Bluetooth access to function properly.</string>
         </config-file>
@@ -86,6 +88,7 @@
         <config-file target="*-Info.plist" parent="NSBluetoothAlwaysUsageDescription">
             <string>This app requires constant Bluetooth access to function properly.</string>
         </config-file>
+        -->
         <!--END_MODULE BLUETOOTH-->
 
         <!--BEGIN_MODULE WIFI-->
