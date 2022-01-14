@@ -21,6 +21,8 @@ var Diagnostic = (function(){
      * @type {object}
      */
     Diagnostic.permissionStatus = {
+        "PROVISIONAL": "provisional", // App has been granted provisional access
+        "EPHEMERAL": "ephemeral", // App has been granted ephemeral access
         "NOT_REQUESTED": "not_determined", // App has not yet requested this permission
         "DENIED_ALWAYS": "denied_always", // User denied access to this permission
         "RESTRICTED": "restricted", // Permission is unavailable and user cannot enable it.  For example, when parental controls are in effect for the current user.
